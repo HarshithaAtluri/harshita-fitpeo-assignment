@@ -1,0 +1,296 @@
+.sidebar {
+    width: 20%;
+    text-align: left;
+    color: whitesmoke;
+    margin: 10px 10px 10px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
+.barhead {
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+    width: 535px;
+    margin: 29PX 20PX 0PX 20PX;
+    padding-top: 67px;
+}
+
+.paihead {
+    background-color: white;
+    width: 100%;
+    margin-top: 32px;
+    margin-left: 50px;
+    border-radius: 15px;
+    padding: 45px;
+}
+
+.piechartbar {
+    margin-top: 50px;
+}
+
+
+.barmain {
+    background-color: "040440";
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    padding-top: 5%;
+    padding: 1%;
+}
+
+.mainbar {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+.rightsidebar {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.headerblock {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 1%;
+    width: 100%;
+    margin-top: 3%;
+    margin-right: 1%;
+}
+
+.stock3 {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.stock {
+    width: 300px;
+}
+
+.adj {
+    width: 100px;
+    margin-top: 30px;
+}
+
+.graphBlock {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.graphBlocks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.mainbargraph {
+    margin-left: 0%;
+    margin-top: 50px;
+}
+
+.inholedata {
+    width: auto;
+    padding: auto;
+    font-size: x-small;
+}
+
+.barblock {
+    height: 280px;
+}
+
+
+.graph {
+    height: 70%;
+}
+
+.donuts {
+    display: block;
+    width: 500%;
+    height: 50%;
+    position: relative;
+    transform: translate(-50%, -50%);
+    border: 10px solid red;
+    border-radius: 80%;
+    border: 10px solid #FF6188;
+    border-top: 10px solid #A9DC62;
+    border-left: 10px solid #78DCDC;
+    border-right: 20px solid #FFD862;
+}
+
+.iconPic {
+    height: 95px;
+    width: 95px;
+    padding-top: 15px;
+    margin-top: 3px;
+    border-radius: 350px;
+    /* background-color: #78DCDC; */
+}
+
+.iconbar {
+    border-radius: 5%;
+    margin-left: 1%;
+    padding-left: 1%;
+    background-color: #fff;
+    padding-right: 1%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+.headerPara {
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.headerhed {
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.headtext {
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.headerdown {
+    display: flex;
+    flex-direction: column;
+    margin-left: 8px;
+    line-height: normal;
+    margin-top: 20px;
+    text-align: left;
+}
+
+/* .footerBlock{} */
+
+
+.hole {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: #fff;
+    padding: 18px;
+}
+
+.image {
+    background-size: cover;
+    height: 100px;
+    width: 115px;
+    margin: 10px 0 0 0;
+    border-radius: 10px;
+}
+
+.sh {
+    margin: 20px 5px 5px 5px;
+    text-align: left;
+}
+
+.ph {
+    margin: auto;
+    text-align: left;
+}
+
+.heder {
+    font-size: large;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.order {
+    list-style: none;
+}
+
+.dashboardline {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.parag {
+    font-size: small;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.paragph {
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.paraghp {
+    font-size: small;
+    color: #f2efff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.donut {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 250px;
+    margin-left: 88px;
+    border-radius: 50%;
+    background: conic-gradient(#f62c91 0deg 60deg,
+            #6138e9 60deg 230deg,
+            #f1effc 230deg 360deg);
+}
+
+
+.bar1 {
+    height: 200px;
+    width: 35px;
+    background-color: #f2efff;
+    border-radius: 10px;
+    margin-left: 2px;
+}
+
+.hearderbaricon {
+    margin-top: 20px;
+}
+
+
+#bar-chart {
+    height: 380px;
+    width: 70%;
+    position: relative;
+    margin: 50px auto 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.graph {
+    height: 283px;
+    position: relative;
+}
+
+.bars {
+    height: 253px;
+    padding: 0 2%;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+}
+
+.bar-group {
+    display: block;
+    float: left;
+    height: 100%;
+    position: relative;
+    width: 12%;
+    margin-right: 10%;
+
+}
